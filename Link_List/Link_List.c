@@ -1,18 +1,10 @@
 /*
- * @Description: 
- * @Version: 1.0
- * @Autor: Roman.Liu
- * @Date: 2019-12-10 14:45:11
- * @LastEditors: Roman.Liu
- * @LastEditTime: 2019-12-12 10:41:19
- */
-/*
  * @Description: Application for LinkList
  * @Version: 0.1
  * @Autor: Roman.Liu
  * @Date: 2019-12-10 11:10:50
  * @LastEditors: Roman.Liu
- * @LastEditTime: 2019-12-10 14:45:11
+ * @LastEditTime: 2019-12-12 17:42:03
  */
 /* The begin of Include */
 #include <stdio.h>

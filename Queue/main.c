@@ -1,8 +1,35 @@
+/*
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: Roman.Liu
+ * @Date: 2019-12-13 16:46:26
+ * @LastEditors: Roman.Liu
+ * @LastEditTime: 2019-12-13 16:48:22
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
+/* 队列定义 */
+#define elem int /*队列元素类型*/
+typedef struct Cmd
+{
+    /* data */
+    
+};
+
+typedef struct Queue
+{
+    /* data */
+    elem* data;
+    /* head */
+    int front;
+    /* tail */
+    int rear;
+    /* size */
+    int max_size;
+
+}queue,*pqueue;
 
 /* 创建队列 */
 int Init_Queue(pqueue q,int max_size)
